@@ -26,7 +26,7 @@ The thread handle is opened with:
 
 #### To-Do
 
-- [ ] Implement 'NtQueueApcThread' API
+- [ ] Implement `NtQueueApcThread` API
 - [ ] Implement DLL Injection
 - [ ] Implement `CreateRemoteThread` API
 - [ ] Implement Local Process Injection
