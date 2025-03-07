@@ -27,7 +27,7 @@ namespace pi
                 int initStatus = Win32.RtlInitUnicodeStringEx(ref destinationString, padding);
                 if (initStatus != 0)
                 {
-                    throw new Exception($"RtlInitUnicodeStringEx falhou com o status: 0x{initStatus:X}");
+                    throw new Exception($"RtlInitUnicodeStringEx FAILED! Status: 0x{initStatus:X}");
                 }
 
                 Marshal.Copy(payload, 0, destinationString.Buffer, bufSize);
