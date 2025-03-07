@@ -1,4 +1,4 @@
-# Thread Name-Calling
+# Sharp Thread Name-Calling
 Thread Name-Calling Injection written in C#.
 All credits to creator of the technique: [hasherezade](https://github.com/hasherezade/thread_namecalling).
 
