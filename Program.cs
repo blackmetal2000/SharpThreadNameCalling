@@ -33,7 +33,7 @@ namespace pi
 
             if (remotePtr == IntPtr.Zero)
             {
-                throw new Exception($"ReadProcessMemory ERROR! Code: {Marshal.GetLastWin32Error()}");
+                throw new Exception($"Unable to receive the pointer! ReadProcessMemory ERROR! Code: {Marshal.GetLastWin32Error()}");
             }
 
             bool changeProtectionBool = Win32.VirtualProtectEx(
