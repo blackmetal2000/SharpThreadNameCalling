@@ -1,5 +1,5 @@
 # Thread Name-Calling
-Thread Name-Calling Injection technique written in C#.
+Thread Name-Calling Injection written in C#.
 All credits to creator of the technique: [hasherezade](https://github.com/hasherezade/thread_namecalling).
 
 #### POC Image:
