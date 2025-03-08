@@ -5,7 +5,7 @@ All credits to creator of the technique: [hasherezade](https://github.com/hasher
 #### POC Image:
 ![alt text](https://i.imgur.com/yg7MO97.png)
 
-There's no use of `VirtualAllocEx` API in this case. The written memory is in `SpareULongs` field in PEB. By default, this field has "PAGE_READ_WRITE" permissions.
+There's no use of `VirtualAllocEx` API in this case. The written memory is in `SpareULongs` field in PEB. By default, this field has `PAGE_READ_WRITE` permissions.
 
 ![alt text](https://i.imgur.com/ZdCWgiJ.png)
 
